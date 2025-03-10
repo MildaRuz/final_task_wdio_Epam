@@ -1,0 +1,14 @@
+{
+  "name": "final_task_wdio_Epam",
+  "devDependencies": {
+    "@wdio/cli": "^9.11.0",
+    "@wdio/local-runner": "^9.11.0",
+    "@wdio/mocha-framework": "^9.11.0",
+    "@wdio/spec-reporter": "^9.11.0",
+    "chromedriver": "^134.0.0",
+    "webdriverio": "^9.11.0"
+  },
+  "scripts": {
+    "test": "wdio run src/config/wdio.conf.js"
+  }
+}

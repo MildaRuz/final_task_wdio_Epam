@@ -1,8 +1,12 @@
 import { $, browser } from '@wdio/globals';
 
+const LoginPage = require('./../po/pages/login.page');
+
+const loginPage = new LoginPage();
+
 describe('Login form', () => {
   beforeEach(async () => {
-    await browser.url('https://www.saucedemo.com/');
+    await loginPage.open();
   });
 
   it('should NOT login with empty username and a message "Username is required" should be visible', async () => {

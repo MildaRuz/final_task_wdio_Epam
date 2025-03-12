@@ -88,7 +88,7 @@ Follow these steps to set up the project locally:
    npm install
    ```
 
-## 🚀 Running the Application & Tests
+## 🚀 Running Tests
 
 ### Run WebDriverIO Tests
 

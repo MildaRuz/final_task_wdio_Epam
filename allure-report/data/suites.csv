@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","531","should NOT login with empty password and show ""Password is required"" error message","","Wed Mar 12 12:13:27 EET 2025","passed","Wed Mar 12 12:13:27 EET 2025","","Login form","",""
+"","447","should login with valid credentials","","Wed Mar 12 12:13:31 EET 2025","passed","Wed Mar 12 12:13:31 EET 2025","","Login form","",""
+"","969","should NOT login with empty password and show ""Password is required"" error message","","Wed Mar 12 12:13:30 EET 2025","passed","Wed Mar 12 12:13:31 EET 2025","","Login form","",""
+"","2571","should NOT login with empty username and show ""Username is required"" error message","","Wed Mar 12 12:13:27 EET 2025","passed","Wed Mar 12 12:13:30 EET 2025","","Login form","",""
+"","536","should login with valid credentials","","Wed Mar 12 12:13:27 EET 2025","passed","Wed Mar 12 12:13:28 EET 2025","","Login form","",""
+"","1742","should NOT login with empty username and show ""Username is required"" error message","","Wed Mar 12 12:13:25 EET 2025","passed","Wed Mar 12 12:13:27 EET 2025","","Login form","",""

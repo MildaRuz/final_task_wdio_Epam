@@ -9,6 +9,7 @@
     "webdriverio": "^9.11.0"
   },
   "scripts": {
-    "test": "wdio run src/config/wdio.conf.js"
+    "test": "wdio run src/config/wdio.conf.js",
+    "wdio": "wdio run ./wdio.conf.js"
   }
 }

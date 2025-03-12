@@ -11,6 +11,6 @@
   },
   "scripts": {
     "test": "wdio run src/config/wdio.conf.js",
-    "report": "allure generate && allure open"
+    "allure-report": "allure generate && allure open"
   }
 }

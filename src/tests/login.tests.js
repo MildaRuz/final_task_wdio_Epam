@@ -1,5 +1,3 @@
-import { browser } from '@wdio/globals';
-
 const LoginComponent = require('../po/components/login.component');
 const LoginPage = require('./../po/pages/login.page');
 
@@ -37,7 +35,7 @@ describe('Login form', () => {
     await expect(loginComponent.loginContainer).toBeDisplayed();
     await loginComponent.fillInInputs('standard_user', 'secret_sauce');
     await loginComponent.loginButton.click();
-    await expect(browser).toHaveTitle('Swag Labs');
+    await expect(loginComponent.dashboardTitle).toHaveTitle('Swag Labs');
     await expect(loginComponent.products).toBeDisplayed();
   });
 });

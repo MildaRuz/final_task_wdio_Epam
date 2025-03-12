@@ -14,6 +14,9 @@ class LoginComponent {
   get loginContainer() {
     return $('div[data-test="login-container"]');
   }
+  get dashboardTitle() {
+    return $('.header_label .app_logo');
+  }
   get products() {
     return $('#inventory_container');
   }

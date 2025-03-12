@@ -1,6 +1,6 @@
-# final_task_wdio_Epam
+# My first testing project with WebDriverIO
 
-Task description
+## Task description
 Launch URL: https://www.saucedemo.com/
 
 UC-1 Test Login form with empty credentials:

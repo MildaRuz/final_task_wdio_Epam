@@ -1,6 +1,25 @@
-# My first testing project with WebDriverIO
+# 🚀 My first test automation project with WebDriverIO
 
-## Task description
+## 🎯 Features
+
+- ✅ **Cross-browser testing** (Chrome, Firefox)
+- ✅ **Page Object Model (POM)** implementation
+- ✅ **Assertions & Validation**
+- ✅ **Configurable test execution**
+- ✅ **Logging & Reporting**
+
+## 🛠️ Technologies Used
+
+- **[WebDriverIO](https://webdriver.io/)** - Test automation framework
+- **Mocha** - Test runner
+- **Chai** - Assertions library
+- **Node.js** - JavaScript runtime
+- **Allure Reports** (optional) - Test reporting
+
+---
+
+## 📌 Task description
+
 Launch URL: https://www.saucedemo.com/
 
 UC-1 Test Login form with empty credentials:
@@ -50,3 +69,43 @@ Patterns: Page Object;
 Assertions: Use from the selected framework;
 
 [Optional] Loggers: Use from the selected framework.
+
+---
+
+## 📥 Installation
+
+Follow these steps to set up the project locally:
+
+1. **Clone the repository**
+
+   ```sh
+   git clone https://github.com/MildaRuz/final_task_wdio_Epam.git
+   cd final_task_wdio_Epam
+   ```
+
+2. **Install dependencies**
+   ```sh
+   npm install
+   ```
+
+## 🚀 Running the Application & Tests
+
+### Run WebDriverIO Tests
+
+Run all tests using the configured browser:
+
+```sh
+npm test
+```
+
+### Generate & View Reports
+
+To generate Allure test report after running the tests run:
+
+```sh
+npm run allure-report
+```
+
+---
+
+Happy Testing! 🚀
